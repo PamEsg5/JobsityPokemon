@@ -6,7 +6,7 @@ Steps to install and run the pokemon app
 3) On root folder, install dependencies -> pip install -r requirements.txt
 4) On root folder execute app -> python3 app.py
 
-On the terminal it will display the path, open on a browser.
+On the terminal it will display the path, open it on a browser.
 1) To create a pokemon you must add to the url: /create_pokemon/<pokemon name>
 2) To see an specific pokemon data add to the url: /display_pokemon/<pokemon name>
 3) To see all existing pokemons add to the url /display_all_pokemons/
