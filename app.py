@@ -43,7 +43,7 @@ def create_pokemon(poke_name):
     name = poke_name
     pokemon =  view.PokemonView()
     poke_data = pokemon.create(name)
-    new_pokemon = Pokemon(api_id=1,#poke_data['id'],
+    new_pokemon = Pokemon(api_id=poke_data['id'],
                           name=poke_data['name'],
                           weight=poke_data['weight'],
                           height=poke_data['height'],
